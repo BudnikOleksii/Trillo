@@ -1,11 +1,11 @@
 .btn-inline {
-    border: none;
-    color: var(--color-primary);
-    font-size: inherit;
-    border-bottom: 1px solid currentColor;
-    padding-bottom: 2px;
     display: inline-block;
+    padding-bottom: 2px;
+    color: var(--color-primary);
     background-color: transparent;
+    font-size: inherit;
+    border: none;
+    border-bottom: 1px solid currentColor;
     cursor: pointer;
     transition: all 0.2s;
 
@@ -29,6 +29,7 @@
 }
 
 .btn {
+    position: relative;
     font-size: 1.5rem;
     font-weight: 300;
     text-transform: uppercase;
@@ -40,7 +41,6 @@
         var(--color-primary-dark)
     );
     color: var(--color-white);
-    position: relative;
     overflow: hidden;
     cursor: pointer;
 
